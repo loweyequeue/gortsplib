@@ -13,9 +13,9 @@ import (
 
 	psdp "github.com/pion/sdp/v3"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
-	"github.com/bluenviron/gortsplib/v4/pkg/mikey"
+	"github.com/loweyequeue/gortsplib/v4/pkg/base"
+	"github.com/loweyequeue/gortsplib/v4/pkg/format"
+	"github.com/loweyequeue/gortsplib/v4/pkg/mikey"
 )
 
 func getAttribute(attributes []psdp.Attribute, key string) string {

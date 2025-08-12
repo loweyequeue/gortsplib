@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/mikey"
+	"github.com/loweyequeue/gortsplib/v4/pkg/base"
+	"github.com/loweyequeue/gortsplib/v4/pkg/mikey"
 )
 
 // KeyMgmt is a KeyMgmt header.

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
+	"github.com/loweyequeue/gortsplib/v4/pkg/description"
 	"github.com/pion/rtcp"
 )
 

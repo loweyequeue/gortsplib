@@ -1,7 +1,7 @@
 /*
 Package gortsplib is a RTSP library for the Go programming language.
 
-Examples are available at https://github.com/bluenviron/gortsplib/tree/main/examples
+Examples are available at https://github.com/loweyequeue/gortsplib/tree/main/examples
 */
 package gortsplib
 
@@ -22,19 +22,19 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/auth"
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/bytecounter"
-	"github.com/bluenviron/gortsplib/v4/pkg/conn"
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
-	"github.com/bluenviron/gortsplib/v4/pkg/headers"
-	"github.com/bluenviron/gortsplib/v4/pkg/liberrors"
-	"github.com/bluenviron/gortsplib/v4/pkg/mikey"
-	"github.com/bluenviron/gortsplib/v4/pkg/rtcpreceiver"
-	"github.com/bluenviron/gortsplib/v4/pkg/rtcpsender"
-	"github.com/bluenviron/gortsplib/v4/pkg/rtptime"
-	"github.com/bluenviron/gortsplib/v4/pkg/sdp"
+	"github.com/loweyequeue/gortsplib/v4/pkg/auth"
+	"github.com/loweyequeue/gortsplib/v4/pkg/base"
+	"github.com/loweyequeue/gortsplib/v4/pkg/bytecounter"
+	"github.com/loweyequeue/gortsplib/v4/pkg/conn"
+	"github.com/loweyequeue/gortsplib/v4/pkg/description"
+	"github.com/loweyequeue/gortsplib/v4/pkg/format"
+	"github.com/loweyequeue/gortsplib/v4/pkg/headers"
+	"github.com/loweyequeue/gortsplib/v4/pkg/liberrors"
+	"github.com/loweyequeue/gortsplib/v4/pkg/mikey"
+	"github.com/loweyequeue/gortsplib/v4/pkg/rtcpreceiver"
+	"github.com/loweyequeue/gortsplib/v4/pkg/rtcpsender"
+	"github.com/loweyequeue/gortsplib/v4/pkg/rtptime"
+	"github.com/loweyequeue/gortsplib/v4/pkg/sdp"
 )
 
 const (

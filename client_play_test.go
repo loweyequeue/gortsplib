@@ -17,13 +17,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/ipv4"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/auth"
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/conn"
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
-	"github.com/bluenviron/gortsplib/v4/pkg/headers"
-	"github.com/bluenviron/gortsplib/v4/pkg/mikey"
+	"github.com/loweyequeue/gortsplib/v4/pkg/auth"
+	"github.com/loweyequeue/gortsplib/v4/pkg/base"
+	"github.com/loweyequeue/gortsplib/v4/pkg/conn"
+	"github.com/loweyequeue/gortsplib/v4/pkg/description"
+	"github.com/loweyequeue/gortsplib/v4/pkg/format"
+	"github.com/loweyequeue/gortsplib/v4/pkg/headers"
+	"github.com/loweyequeue/gortsplib/v4/pkg/mikey"
 	"github.com/bluenviron/mediacommon/v2/pkg/codecs/mpeg4audio"
 )
 

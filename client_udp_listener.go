@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/multicast"
+	"github.com/loweyequeue/gortsplib/v4/pkg/multicast"
 )
 
 func int64Ptr(v int64) *int64 {
